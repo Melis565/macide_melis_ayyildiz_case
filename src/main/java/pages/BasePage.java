@@ -29,11 +29,6 @@ public abstract class BasePage {
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    protected void click(WebElement element){
-        waitForClickable(element);
-        element.click();
-    }
-
     protected void scrollToElement(WebElement element){
         ((JavascriptExecutor) driver).executeScript(
                 "arguments[0].scrollIntoView({block: 'center'});", element);
@@ -69,4 +64,17 @@ public abstract class BasePage {
     public String getCurrentUrl() { return driver.getCurrentUrl(); }
 
     public String getWindowHandle() { return driver.getWindowHandle(); }
+
+    protected void waitForScrollToFinish() {
+        wait.until(driver -> {
+            Number scrollBefore = (Number) ((JavascriptExecutor) driver)
+                    .executeScript("return window.pageYOffset;");
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException ignored) {}
+            Number scrollAfter = (Number) ((JavascriptExecutor) driver)
+                    .executeScript("return window.pageYOffset;");
+            return scrollBefore.equals(scrollAfter);
+        });
+    }
 }
