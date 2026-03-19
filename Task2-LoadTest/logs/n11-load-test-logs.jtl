@@ -1,0 +1,43 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1773956278347,232,Homepage,403,Forbidden,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[200]]]
+
+/",2482,698,1,1,https://www.n11.com/,229,0,202
+1773956278581,17,HTTP Request for laptop,403,Forbidden,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[200]]]
+
+/",2196,900,1,1,https://www.n11.com/arama?q=laptop,17,0,0
+1773956278599,14,HTTP Request for empty search,403,Forbidden,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[200]]]
+
+/",2195,894,1,1,https://www.n11.com/arama?q=,14,0,0
+1773956278614,15,HTTP Request for telefon,403,Forbidden,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[200]]]
+
+/",2195,901,1,1,https://www.n11.com/arama?q=telefon,15,0,0
+1773956278630,16,HTTP Request for şişe,403,Forbidden,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[403]]]
+
+****** comparison: [[[200]]]
+
+/",2195,908,1,1,https://www.n11.com/arama?q=şişe,15,0,0
+1773956278647,0,HTTP Request for special character,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Malformed escape pair at index 29: https://www.n11.com/arama?q=*%,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[200                                                ]]]
+
+/",1276,0,1,1,https://www.n11.com/arama?q=*%,0,0,0

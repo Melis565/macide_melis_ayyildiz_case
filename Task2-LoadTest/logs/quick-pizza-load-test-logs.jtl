@@ -1,0 +1,226 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1773956184347,461,HTTP Request for Homepage,200,OK,Thread Group 1-2,text,true,,3486,152,5,5,https://quickpizza.grafana.com/,458,0,331
+1773956184236,571,HTTP Request for Homepage,200,OK,Thread Group 1-1,text,true,,3486,152,5,5,https://quickpizza.grafana.com/,567,0,441
+1773956184480,377,HTTP Request for Homepage,200,OK,Thread Group 1-3,text,true,,3486,152,5,5,https://quickpizza.grafana.com/,377,0,252
+1773956184812,126,HTTP Request for login,200,OK,Thread Group 1-1,text,true,,744,535,6,6,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,126,0,0
+1773956184812,129,HTTP Request for login,200,OK,Thread Group 1-2,text,true,,744,535,6,6,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,129,0,0
+1773956184858,125,HTTP Request for login,200,OK,Thread Group 1-3,text,true,,744,535,6,6,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956184608,379,HTTP Request for Homepage,200,OK,Thread Group 1-4,text,true,,3486,152,6,6,https://quickpizza.grafana.com/,379,0,253
+1773956184942,168,HTTP Request for pizza endpoint,200,OK,Thread Group 1-2,text,true,,1243,654,7,7,https://quickpizza.grafana.com/api/pizza,168,0,0
+1773956184745,379,HTTP Request for Homepage,200,OK,Thread Group 1-5,text,true,,3486,152,7,7,https://quickpizza.grafana.com/,378,0,252
+1773956184939,187,HTTP Request for pizza endpoint,200,OK,Thread Group 1-1,text,true,,1092,654,7,7,https://quickpizza.grafana.com/api/pizza,187,0,0
+1773956184988,138,HTTP Request for login,200,OK,Thread Group 1-4,text,true,,744,535,7,7,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,138,0,0
+1773956184985,147,HTTP Request for pizza endpoint,200,OK,Thread Group 1-3,text,true,,1177,654,7,7,https://quickpizza.grafana.com/api/pizza,147,0,0
+1773956185113,127,HTTP Request for Homepage,200,OK,Thread Group 1-2,text,true,,3486,462,8,8,https://quickpizza.grafana.com/,126,0,0
+1773956185125,123,HTTP Request for login,200,OK,Thread Group 1-5,text,true,,744,535,8,8,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,123,0,0
+1773956185127,125,HTTP Request for Homepage,200,OK,Thread Group 1-1,text,true,,3486,462,8,8,https://quickpizza.grafana.com/,125,0,0
+1773956184874,378,HTTP Request for Homepage,200,OK,Thread Group 1-6,text,true,,3486,152,8,8,https://quickpizza.grafana.com/,377,0,254
+1773956185133,125,HTTP Request for Homepage,200,OK,Thread Group 1-3,text,true,,3486,462,8,8,https://quickpizza.grafana.com/,125,0,0
+1773956185127,170,HTTP Request for pizza endpoint,200,OK,Thread Group 1-4,text,true,,1246,654,9,9,https://quickpizza.grafana.com/api/pizza,170,0,0
+1773956185241,125,HTTP Request for login,200,OK,Thread Group 1-2,text,true,,744,567,9,9,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956185253,127,HTTP Request for login,200,OK,Thread Group 1-6,text,true,,744,535,9,9,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,127,0,0
+1773956185252,128,HTTP Request for login,200,OK,Thread Group 1-1,text,true,,744,567,9,9,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,128,0,0
+1773956185258,124,HTTP Request for login,200,OK,Thread Group 1-3,text,true,,744,567,9,9,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956185010,378,HTTP Request for Homepage,200,OK,Thread Group 1-7,text,true,,3486,152,9,9,https://quickpizza.grafana.com/,377,0,252
+1773956185249,150,HTTP Request for pizza endpoint,200,OK,Thread Group 1-5,text,true,,1326,654,9,9,https://quickpizza.grafana.com/api/pizza,150,0,0
+1773956185298,127,HTTP Request for Homepage,200,OK,Thread Group 1-4,text,true,,3486,462,10,10,https://quickpizza.grafana.com/,127,0,0
+1773956185389,125,HTTP Request for login,200,OK,Thread Group 1-7,text,true,,744,535,10,10,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956185141,382,HTTP Request for Homepage,200,OK,Thread Group 1-8,text,true,,3486,152,10,10,https://quickpizza.grafana.com/,382,0,253
+1773956185400,124,HTTP Request for Homepage,200,OK,Thread Group 1-5,text,true,,3486,462,10,10,https://quickpizza.grafana.com/,124,0,0
+1773956185383,154,HTTP Request for pizza endpoint,200,OK,Thread Group 1-3,text,true,,1331,654,10,10,https://quickpizza.grafana.com/api/pizza,154,0,0
+1773956185381,163,HTTP Request for pizza endpoint,200,OK,Thread Group 1-1,text,true,,1107,654,11,11,https://quickpizza.grafana.com/api/pizza,163,0,0
+1773956185425,126,HTTP Request for login,200,OK,Thread Group 1-4,text,true,,744,567,11,11,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,126,0,0
+1773956185381,206,HTTP Request for pizza endpoint,200,OK,Thread Group 1-6,text,true,,1258,654,11,11,https://quickpizza.grafana.com/api/pizza,206,0,0
+1773956185369,240,HTTP Request for pizza endpoint,200,OK,Thread Group 1-2,text,true,,1198,654,11,11,https://quickpizza.grafana.com/api/pizza,240,0,0
+1773956185524,125,HTTP Request for login,200,OK,Thread Group 1-5,text,true,,744,567,11,11,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956185524,127,HTTP Request for login,200,OK,Thread Group 1-8,text,true,,744,535,11,11,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,127,0,0
+1773956185278,378,HTTP Request for Homepage,200,OK,Thread Group 1-9,text,true,,3486,152,11,11,https://quickpizza.grafana.com/,378,0,254
+1773956185538,122,HTTP Request for Homepage,200,OK,Thread Group 1-3,text,true,,3486,462,11,11,https://quickpizza.grafana.com/,122,0,0
+1773956185545,125,HTTP Request for Homepage,200,OK,Thread Group 1-1,text,true,,3486,462,11,11,https://quickpizza.grafana.com/,122,0,0
+1773956185515,159,HTTP Request for pizza endpoint,200,OK,Thread Group 1-7,text,true,,1092,654,11,11,https://quickpizza.grafana.com/api/pizza,159,0,0
+1773956185588,123,HTTP Request for Homepage,200,OK,Thread Group 1-6,text,true,,3486,462,12,12,https://quickpizza.grafana.com/,122,0,0
+1773956185552,179,HTTP Request for pizza endpoint,200,OK,Thread Group 1-4,text,true,,1167,654,12,12,https://quickpizza.grafana.com/api/pizza,179,0,0
+1773956185610,124,HTTP Request for Homepage,200,OK,Thread Group 1-2,text,true,,3486,462,12,12,https://quickpizza.grafana.com/,124,0,0
+1773956185410,373,HTTP Request for Homepage,200,OK,Thread Group 1-10,text,true,,3486,152,12,12,https://quickpizza.grafana.com/,373,0,247
+1773956185657,126,HTTP Request for login,200,OK,Thread Group 1-9,text,true,,744,535,12,12,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,126,0,0
+1773956185661,131,HTTP Request for login,200,OK,Thread Group 1-3,text,true,,744,567,12,12,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,131,0,0
+1773956185671,121,HTTP Request for login,200,OK,Thread Group 1-1,text,true,,744,567,12,12,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,121,0,0
+1773956185651,143,HTTP Request for pizza endpoint,200,OK,Thread Group 1-8,text,true,,1049,654,12,12,https://quickpizza.grafana.com/api/pizza,143,0,0
+1773956185675,124,HTTP Request for Homepage,200,OK,Thread Group 1-7,text,true,,3486,462,12,12,https://quickpizza.grafana.com/,123,0,0
+1773956185649,162,HTTP Request for pizza endpoint,200,OK,Thread Group 1-5,text,true,,1103,654,13,13,https://quickpizza.grafana.com/api/pizza,162,0,0
+1773956185711,124,HTTP Request for login,200,OK,Thread Group 1-6,text,true,,744,567,13,13,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956185732,125,HTTP Request for Homepage,200,OK,Thread Group 1-4,text,true,,3486,462,13,13,https://quickpizza.grafana.com/,125,0,0
+1773956185735,126,HTTP Request for login,200,OK,Thread Group 1-2,text,true,,744,567,13,13,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,126,0,0
+1773956185783,124,HTTP Request for login,200,OK,Thread Group 1-10,text,true,,744,535,13,13,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956185545,370,HTTP Request for Homepage,200,OK,Thread Group 1-11,text,true,,3486,152,13,13,https://quickpizza.grafana.com/,370,0,247
+1773956185795,124,HTTP Request for Homepage,200,OK,Thread Group 1-8,text,true,,3486,462,13,13,https://quickpizza.grafana.com/,124,0,0
+1773956185800,124,HTTP Request for login,200,OK,Thread Group 1-7,text,true,,744,567,13,13,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956185812,123,HTTP Request for Homepage,200,OK,Thread Group 1-5,text,true,,3486,462,13,13,https://quickpizza.grafana.com/,123,0,0
+1773956185793,154,HTTP Request for pizza endpoint,200,OK,Thread Group 1-1,text,true,,1178,654,14,14,https://quickpizza.grafana.com/api/pizza,154,0,0
+1773956185857,125,HTTP Request for login,200,OK,Thread Group 1-4,text,true,,744,567,14,14,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956185792,191,HTTP Request for pizza endpoint,200,OK,Thread Group 1-3,text,true,,1316,654,14,14,https://quickpizza.grafana.com/api/pizza,191,0,0
+1773956185784,222,HTTP Request for pizza endpoint,200,OK,Thread Group 1-9,text,true,,1155,654,14,14,https://quickpizza.grafana.com/api/pizza,222,0,0
+1773956185835,177,HTTP Request for pizza endpoint,200,OK,Thread Group 1-6,text,true,,1237,654,14,14,https://quickpizza.grafana.com/api/pizza,177,0,0
+1773956185915,123,HTTP Request for login,200,OK,Thread Group 1-11,text,true,,744,535,14,14,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,123,0,0
+1773956185920,125,HTTP Request for login,200,OK,Thread Group 1-8,text,true,,744,567,14,14,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956185676,370,HTTP Request for Homepage,200,OK,Thread Group 1-12,text,true,,3486,152,14,14,https://quickpizza.grafana.com/,370,0,247
+1773956185936,122,HTTP Request for login,200,OK,Thread Group 1-5,text,true,,744,567,14,14,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,122,0,0
+1773956185947,123,HTTP Request for Homepage,200,OK,Thread Group 1-1,text,true,,3486,462,14,14,https://quickpizza.grafana.com/,123,0,0
+1773956185862,234,HTTP Request for pizza endpoint,200,OK,Thread Group 1-2,text,true,,1243,654,15,15,https://quickpizza.grafana.com/api/pizza,234,0,0
+1773956185985,121,HTTP Request for Homepage,200,OK,Thread Group 1-3,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,121,0,0
+1773956185907,202,HTTP Request for pizza endpoint,200,OK,Thread Group 1-10,text,true,,1245,654,15,15,https://quickpizza.grafana.com/api/pizza,202,0,0
+1773956186006,126,HTTP Request for Homepage,200,OK,Thread Group 1-9,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,126,0,0
+1773956186012,124,HTTP Request for Homepage,200,OK,Thread Group 1-6,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,123,0,0
+1773956185924,231,HTTP Request for pizza endpoint,200,OK,Thread Group 1-7,text,true,,1102,654,15,15,https://quickpizza.grafana.com/api/pizza,231,0,0
+1773956186047,123,HTTP Request for login,200,OK,Thread Group 1-12,text,true,,744,535,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,123,0,0
+1773956185984,187,HTTP Request for pizza endpoint,200,OK,Thread Group 1-4,text,true,,1332,654,15,15,https://quickpizza.grafana.com/api/pizza,187,0,0
+1773956185810,379,HTTP Request for Homepage,200,OK,Thread Group 1-13,text,true,,3486,152,15,15,https://quickpizza.grafana.com/,378,0,254
+1773956186071,124,HTTP Request for login,200,OK,Thread Group 1-1,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956186038,169,HTTP Request for pizza endpoint,200,OK,Thread Group 1-11,text,true,,1182,654,15,15,https://quickpizza.grafana.com/api/pizza,169,0,0
+1773956186045,172,HTTP Request for pizza endpoint,200,OK,Thread Group 1-8,text,true,,1260,654,15,15,https://quickpizza.grafana.com/api/pizza,172,0,0
+1773956186098,128,HTTP Request for Homepage,200,OK,Thread Group 1-2,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,128,0,0
+1773956186108,122,HTTP Request for login,200,OK,Thread Group 1-3,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,122,0,0
+1773956186110,124,HTTP Request for Homepage,200,OK,Thread Group 1-10,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,124,0,0
+1773956186133,125,HTTP Request for login,200,OK,Thread Group 1-9,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956186136,124,HTTP Request for login,200,OK,Thread Group 1-6,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956186060,201,HTTP Request for pizza endpoint,200,OK,Thread Group 1-5,text,true,,1161,654,15,15,https://quickpizza.grafana.com/api/pizza,201,0,0
+1773956186156,127,HTTP Request for Homepage,200,OK,Thread Group 1-7,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,127,0,0
+1773956186172,125,HTTP Request for Homepage,200,OK,Thread Group 1-4,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,125,0,0
+1773956185939,374,HTTP Request for Homepage,200,OK,Thread Group 1-14,text,true,,3486,152,15,15,https://quickpizza.grafana.com/,374,0,250
+1773956186189,125,HTTP Request for login,200,OK,Thread Group 1-13,text,true,,744,535,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956186207,123,HTTP Request for Homepage,200,OK,Thread Group 1-11,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,123,0,0
+1773956186195,143,HTTP Request for pizza endpoint,200,OK,Thread Group 1-1,text,true,,1116,654,15,15,https://quickpizza.grafana.com/api/pizza,143,0,0
+1773956186217,124,HTTP Request for Homepage,200,OK,Thread Group 1-8,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,124,0,0
+1773956186227,125,HTTP Request for login,200,OK,Thread Group 1-2,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956186235,123,HTTP Request for login,200,OK,Thread Group 1-10,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,123,0,0
+1773956186262,123,HTTP Request for Homepage,200,OK,Thread Group 1-5,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,123,0,0
+1773956186171,236,HTTP Request for pizza endpoint,200,OK,Thread Group 1-12,text,true,,1129,654,15,15,https://quickpizza.grafana.com/api/pizza,236,0,0
+1773956186284,125,HTTP Request for login,200,OK,Thread Group 1-7,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956186260,154,HTTP Request for pizza endpoint,200,OK,Thread Group 1-6,text,true,,1315,654,15,15,https://quickpizza.grafana.com/api/pizza,154,0,0
+1773956186298,124,HTTP Request for login,200,OK,Thread Group 1-4,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956186313,123,HTTP Request for login,200,OK,Thread Group 1-14,text,true,,744,535,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,123,0,0
+1773956186230,221,HTTP Request for pizza endpoint,200,OK,Thread Group 1-3,text,true,,1235,654,15,15,https://quickpizza.grafana.com/api/pizza,221,0,0
+1773956186259,194,HTTP Request for pizza endpoint,200,OK,Thread Group 1-9,text,true,,1182,654,15,15,https://quickpizza.grafana.com/api/pizza,194,0,0
+1773956186074,380,HTTP Request for Homepage,200,OK,Thread Group 1-15,text,true,,3486,152,15,15,https://quickpizza.grafana.com/,379,0,253
+1773956186331,124,HTTP Request for login,200,OK,Thread Group 1-11,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956186338,122,HTTP Request for Homepage,200,OK,Thread Group 1-1,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,122,0,0
+1773956186341,124,HTTP Request for login,200,OK,Thread Group 1-8,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956186352,148,HTTP Request for pizza endpoint,200,OK,Thread Group 1-2,text,true,,1106,654,15,15,https://quickpizza.grafana.com/api/pizza,148,0,0
+1773956186385,122,HTTP Request for login,200,OK,Thread Group 1-5,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,122,0,0
+1773956186314,196,HTTP Request for pizza endpoint,200,OK,Thread Group 1-13,text,true,,1319,654,15,15,https://quickpizza.grafana.com/api/pizza,196,0,0
+1773956186407,123,HTTP Request for Homepage,200,OK,Thread Group 1-12,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,123,0,0
+1773956186415,121,HTTP Request for Homepage,200,OK,Thread Group 1-6,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,121,0,0
+1773956186409,142,HTTP Request for pizza endpoint,200,OK,Thread Group 1-7,text,true,,1186,654,15,15,https://quickpizza.grafana.com/api/pizza,142,0,0
+1773956186358,196,HTTP Request for pizza endpoint,200,OK,Thread Group 1-10,text,true,,1100,654,15,15,https://quickpizza.grafana.com/api/pizza,196,0,0
+1773956186452,123,HTTP Request for Homepage,200,OK,Thread Group 1-3,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,123,0,0
+1773956186454,125,HTTP Request for login,200,OK,Thread Group 1-15,text,true,,744,535,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956186454,127,HTTP Request for Homepage,200,OK,Thread Group 1-9,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,127,0,0
+1773956186460,136,HTTP Request for login,200,OK,Thread Group 1-1,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,136,0,0
+1773956186422,176,HTTP Request for pizza endpoint,200,OK,Thread Group 1-4,text,true,,1105,654,15,15,https://quickpizza.grafana.com/api/pizza,176,0,0
+1773956186500,125,HTTP Request for Homepage,200,OK,Thread Group 1-2,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,125,0,0
+1773956186510,125,HTTP Request for Homepage,200,OK,Thread Group 1-13,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,125,0,0
+1773956186465,180,HTTP Request for pizza endpoint,200,OK,Thread Group 1-8,text,true,,1310,654,15,15,https://quickpizza.grafana.com/api/pizza,180,0,0
+1773956186531,122,HTTP Request for login,200,OK,Thread Group 1-12,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,122,0,0
+1773956186537,122,HTTP Request for login,200,OK,Thread Group 1-6,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,122,0,0
+1773956186436,231,HTTP Request for pizza endpoint,200,OK,Thread Group 1-14,text,true,,1252,654,15,15,https://quickpizza.grafana.com/api/pizza,231,0,0
+1773956186455,219,HTTP Request for pizza endpoint,200,OK,Thread Group 1-11,text,true,,1111,654,15,15,https://quickpizza.grafana.com/api/pizza,219,0,0
+1773956186507,171,HTTP Request for pizza endpoint,200,OK,Thread Group 1-5,text,true,,1311,654,15,15,https://quickpizza.grafana.com/api/pizza,171,0,0
+1773956186552,126,HTTP Request for Homepage,200,OK,Thread Group 1-7,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,126,0,0
+1773956186554,124,HTTP Request for Homepage,200,OK,Thread Group 1-10,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,124,0,0
+1773956186576,122,HTTP Request for login,200,OK,Thread Group 1-3,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,122,0,0
+1773956186581,125,HTTP Request for login,200,OK,Thread Group 1-9,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956186598,126,HTTP Request for Homepage,200,OK,Thread Group 1-4,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,126,0,0
+1773956186579,169,HTTP Request for pizza endpoint,200,OK,Thread Group 1-15,text,true,,1325,654,15,15,https://quickpizza.grafana.com/api/pizza,169,0,0
+1773956186626,124,HTTP Request for login,200,OK,Thread Group 1-2,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956186636,124,HTTP Request for login,200,OK,Thread Group 1-13,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956186646,125,HTTP Request for Homepage,200,OK,Thread Group 1-8,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,125,0,0
+1773956186668,123,HTTP Request for Homepage,200,OK,Thread Group 1-14,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,123,0,0
+1773956186674,126,HTTP Request for Homepage,200,OK,Thread Group 1-11,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,126,0,0
+1773956186678,122,HTTP Request for Homepage,200,OK,Thread Group 1-5,text,true,,3486,462,15,15,https://quickpizza.grafana.com/,122,0,0
+1773956186597,204,HTTP Request for pizza endpoint,200,OK,Thread Group 1-1,text,true,,1242,654,15,15,https://quickpizza.grafana.com/api/pizza,204,0,0
+1773956186679,122,HTTP Request for login,200,OK,Thread Group 1-10,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,122,0,0
+1773956186678,124,HTTP Request for login,200,OK,Thread Group 1-7,text,true,,744,567,15,15,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956186660,173,HTTP Request for pizza endpoint,200,OK,Thread Group 1-6,text,true,,1308,654,14,14,https://quickpizza.grafana.com/api/pizza,173,0,0
+1773956186654,194,HTTP Request for pizza endpoint,200,OK,Thread Group 1-12,text,true,,1242,654,14,14,https://quickpizza.grafana.com/api/pizza,194,0,0
+1773956186724,125,HTTP Request for login,200,OK,Thread Group 1-4,text,true,,744,567,14,14,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956186749,127,HTTP Request for Homepage,200,OK,Thread Group 1-15,text,true,,3486,462,14,14,https://quickpizza.grafana.com/,126,0,0
+1773956186707,183,HTTP Request for pizza endpoint,200,OK,Thread Group 1-9,text,true,,1107,654,14,14,https://quickpizza.grafana.com/api/pizza,183,0,0
+1773956186771,125,HTTP Request for login,200,OK,Thread Group 1-8,text,true,,744,567,14,14,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956186699,211,HTTP Request for pizza endpoint,200,OK,Thread Group 1-3,text,true,,1191,654,14,14,https://quickpizza.grafana.com/api/pizza,211,0,0
+1773956186792,130,HTTP Request for login,200,OK,Thread Group 1-14,text,true,,744,567,13,13,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,130,0,0
+1773956186800,122,HTTP Request for login,200,OK,Thread Group 1-11,text,true,,744,567,13,13,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,122,0,0
+1773956186801,122,HTTP Request for login,200,OK,Thread Group 1-5,text,true,,744,567,13,13,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,122,0,0
+1773956186750,174,HTTP Request for pizza endpoint,200,OK,Thread Group 1-2,text,true,,1311,654,13,13,https://quickpizza.grafana.com/api/pizza,174,0,0
+1773956186761,172,HTTP Request for pizza endpoint,200,OK,Thread Group 1-13,text,true,,1326,654,12,12,https://quickpizza.grafana.com/api/pizza,172,0,0
+1773956186834,123,HTTP Request for Homepage,200,OK,Thread Group 1-6,text,true,,3486,462,12,12,https://quickpizza.grafana.com/,123,0,0
+1773956186849,123,HTTP Request for Homepage,200,OK,Thread Group 1-12,text,true,,3486,462,12,12,https://quickpizza.grafana.com/,123,0,0
+1773956186802,194,HTTP Request for pizza endpoint,200,OK,Thread Group 1-7,text,true,,1120,654,12,12,https://quickpizza.grafana.com/api/pizza,194,0,0
+1773956186878,126,HTTP Request for login,200,OK,Thread Group 1-15,text,true,,744,567,12,12,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,126,0,0
+1773956186891,126,HTTP Request for Homepage,200,OK,Thread Group 1-9,text,true,,3486,462,12,12,https://quickpizza.grafana.com/,126,0,0
+1773956186802,232,HTTP Request for pizza endpoint,200,OK,Thread Group 1-10,text,true,,1232,654,12,12,https://quickpizza.grafana.com/api/pizza,232,0,0
+1773956186933,124,HTTP Request for Homepage,200,OK,Thread Group 1-13,text,true,,3486,462,12,12,https://quickpizza.grafana.com/,124,0,0
+1773956186924,146,HTTP Request for pizza endpoint,200,OK,Thread Group 1-5,text,true,,1119,654,12,12,https://quickpizza.grafana.com/api/pizza,146,0,0
+1773956186849,228,HTTP Request for pizza endpoint,200,OK,Thread Group 1-4,text,true,,1121,654,11,11,https://quickpizza.grafana.com/api/pizza,228,0,0
+1773956186896,182,HTTP Request for pizza endpoint,200,OK,Thread Group 1-8,text,true,,1326,654,11,11,https://quickpizza.grafana.com/api/pizza,182,0,0
+1773956186958,125,HTTP Request for login,200,OK,Thread Group 1-6,text,true,,744,567,10,10,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956186973,123,HTTP Request for login,200,OK,Thread Group 1-12,text,true,,744,567,10,10,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,123,0,0
+1773956186997,126,HTTP Request for Homepage,200,OK,Thread Group 1-7,text,true,,3486,462,10,10,https://quickpizza.grafana.com/,126,0,0
+1773956187018,126,HTTP Request for login,200,OK,Thread Group 1-9,text,true,,744,567,10,10,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956186923,227,HTTP Request for pizza endpoint,200,OK,Thread Group 1-11,text,true,,1093,654,10,10,https://quickpizza.grafana.com/api/pizza,227,0,0
+1773956187035,122,HTTP Request for Homepage,200,OK,Thread Group 1-10,text,true,,3486,462,10,10,https://quickpizza.grafana.com/,122,0,0
+1773956186922,236,HTTP Request for pizza endpoint,200,OK,Thread Group 1-14,text,true,,1180,654,10,10,https://quickpizza.grafana.com/api/pizza,236,0,0
+1773956187004,169,HTTP Request for pizza endpoint,200,OK,Thread Group 1-15,text,true,,1096,654,10,10,https://quickpizza.grafana.com/api/pizza,169,0,0
+1773956187059,125,HTTP Request for login,200,OK,Thread Group 1-13,text,true,,744,567,10,10,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956187079,126,HTTP Request for Homepage,200,OK,Thread Group 1-8,text,true,,3486,462,10,10,https://quickpizza.grafana.com/,126,0,0
+1773956187125,125,HTTP Request for login,200,OK,Thread Group 1-7,text,true,,744,567,10,10,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956187152,124,HTTP Request for Homepage,200,OK,Thread Group 1-11,text,true,,3486,462,10,10,https://quickpizza.grafana.com/,124,0,0
+1773956187158,124,HTTP Request for login,200,OK,Thread Group 1-10,text,true,,744,567,10,10,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956187158,124,HTTP Request for Homepage,200,OK,Thread Group 1-14,text,true,,3486,462,10,10,https://quickpizza.grafana.com/,124,0,0
+1773956187097,192,HTTP Request for pizza endpoint,200,OK,Thread Group 1-12,text,true,,1333,654,10,10,https://quickpizza.grafana.com/api/pizza,192,0,0
+1773956187174,127,HTTP Request for Homepage,200,OK,Thread Group 1-15,text,true,,3486,462,10,10,https://quickpizza.grafana.com/,126,0,0
+1773956187084,237,HTTP Request for pizza endpoint,200,OK,Thread Group 1-6,text,true,,1248,654,10,10,https://quickpizza.grafana.com/api/pizza,237,0,0
+1773956187206,125,HTTP Request for login,200,OK,Thread Group 1-8,text,true,,744,567,9,9,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956187145,220,HTTP Request for pizza endpoint,200,OK,Thread Group 1-9,text,true,,1185,654,9,9,https://quickpizza.grafana.com/api/pizza,220,0,0
+1773956187185,205,HTTP Request for pizza endpoint,200,OK,Thread Group 1-13,text,true,,1170,654,9,9,https://quickpizza.grafana.com/api/pizza,205,0,0
+1773956187277,124,HTTP Request for login,200,OK,Thread Group 1-11,text,true,,744,567,9,9,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956187283,123,HTTP Request for login,200,OK,Thread Group 1-14,text,true,,744,567,9,9,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,123,0,0
+1773956187252,159,HTTP Request for pizza endpoint,200,OK,Thread Group 1-7,text,true,,1255,654,9,9,https://quickpizza.grafana.com/api/pizza,159,0,0
+1773956187290,124,HTTP Request for Homepage,200,OK,Thread Group 1-12,text,true,,3486,462,8,8,https://quickpizza.grafana.com/,124,0,0
+1773956187302,127,HTTP Request for login,200,OK,Thread Group 1-15,text,true,,744,567,8,8,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,127,0,0
+1773956187283,182,HTTP Request for pizza endpoint,200,OK,Thread Group 1-10,text,true,,1310,654,8,8,https://quickpizza.grafana.com/api/pizza,182,0,0
+1773956187366,125,HTTP Request for Homepage,200,OK,Thread Group 1-9,text,true,,3486,462,8,8,https://quickpizza.grafana.com/,124,0,0
+1773956187331,176,HTTP Request for pizza endpoint,200,OK,Thread Group 1-8,text,true,,1263,654,8,8,https://quickpizza.grafana.com/api/pizza,176,0,0
+1773956187391,126,HTTP Request for Homepage,200,OK,Thread Group 1-13,text,true,,3486,462,7,7,https://quickpizza.grafana.com/,126,0,0
+1773956187415,123,HTTP Request for login,200,OK,Thread Group 1-12,text,true,,744,567,7,7,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,123,0,0
+1773956187407,173,HTTP Request for pizza endpoint,200,OK,Thread Group 1-14,text,true,,1267,654,7,7,https://quickpizza.grafana.com/api/pizza,173,0,0
+1773956187466,124,HTTP Request for Homepage,200,OK,Thread Group 1-10,text,true,,3486,462,7,7,https://quickpizza.grafana.com/,124,0,0
+1773956187492,124,HTTP Request for login,200,OK,Thread Group 1-9,text,true,,744,567,7,7,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956187402,235,HTTP Request for pizza endpoint,200,OK,Thread Group 1-11,text,true,,1090,654,7,7,https://quickpizza.grafana.com/api/pizza,235,0,0
+1773956187518,131,HTTP Request for login,200,OK,Thread Group 1-13,text,true,,744,567,7,7,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,131,0,0
+1773956187430,220,HTTP Request for pizza endpoint,200,OK,Thread Group 1-15,text,true,,1108,654,7,7,https://quickpizza.grafana.com/api/pizza,220,0,0
+1773956187581,125,HTTP Request for Homepage,200,OK,Thread Group 1-14,text,true,,3486,462,7,7,https://quickpizza.grafana.com/,125,0,0
+1773956187591,124,HTTP Request for login,200,OK,Thread Group 1-10,text,true,,744,567,7,7,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956187540,217,HTTP Request for pizza endpoint,200,OK,Thread Group 1-12,text,true,,1112,654,7,7,https://quickpizza.grafana.com/api/pizza,217,0,0
+1773956187638,123,HTTP Request for Homepage,200,OK,Thread Group 1-11,text,true,,3486,462,7,7,https://quickpizza.grafana.com/,123,0,0
+1773956187650,127,HTTP Request for Homepage,200,OK,Thread Group 1-15,text,true,,3486,462,7,7,https://quickpizza.grafana.com/,127,0,0
+1773956187617,177,HTTP Request for pizza endpoint,200,OK,Thread Group 1-9,text,true,,1320,654,7,7,https://quickpizza.grafana.com/api/pizza,177,0,0
+1773956187708,123,HTTP Request for login,200,OK,Thread Group 1-14,text,true,,744,567,6,6,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,123,0,0
+1773956187757,125,HTTP Request for Homepage,200,OK,Thread Group 1-12,text,true,,3486,462,6,6,https://quickpizza.grafana.com/,124,0,0
+1773956187716,166,HTTP Request for pizza endpoint,200,OK,Thread Group 1-10,text,true,,1252,654,6,6,https://quickpizza.grafana.com/api/pizza,166,0,0
+1773956187762,123,HTTP Request for login,200,OK,Thread Group 1-11,text,true,,744,567,5,5,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,123,0,0
+1773956187650,241,HTTP Request for pizza endpoint,200,OK,Thread Group 1-13,text,true,,1180,654,5,5,https://quickpizza.grafana.com/api/pizza,241,0,0
+1773956187777,126,HTTP Request for login,200,OK,Thread Group 1-15,text,true,,744,567,5,5,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,126,0,0
+1773956187883,124,HTTP Request for login,200,OK,Thread Group 1-12,text,true,,744,567,5,5,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,124,0,0
+1773956187892,126,HTTP Request for Homepage,200,OK,Thread Group 1-13,text,true,,3486,462,5,5,https://quickpizza.grafana.com/,125,0,0
+1773956187903,147,HTTP Request for pizza endpoint,200,OK,Thread Group 1-15,text,true,,1328,654,5,5,https://quickpizza.grafana.com/api/pizza,147,0,0
+1773956187832,226,HTTP Request for pizza endpoint,200,OK,Thread Group 1-14,text,true,,1182,654,5,5,https://quickpizza.grafana.com/api/pizza,226,0,0
+1773956187886,205,HTTP Request for pizza endpoint,200,OK,Thread Group 1-11,text,true,,1113,654,5,5,https://quickpizza.grafana.com/api/pizza,204,0,0
+1773956188019,125,HTTP Request for login,200,OK,Thread Group 1-13,text,true,,744,567,4,4,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956188009,149,HTTP Request for pizza endpoint,200,OK,Thread Group 1-12,text,true,,1304,654,4,4,https://quickpizza.grafana.com/api/pizza,149,0,0
+1773956188051,127,HTTP Request for Homepage,200,OK,Thread Group 1-15,text,true,,3486,462,3,3,https://quickpizza.grafana.com/,127,0,0
+1773956188059,124,HTTP Request for Homepage,200,OK,Thread Group 1-14,text,true,,3486,462,3,3,https://quickpizza.grafana.com/,124,0,0
+1773956188184,125,HTTP Request for login,200,OK,Thread Group 1-14,text,true,,744,567,3,3,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,125,0,0
+1773956188146,164,HTTP Request for pizza endpoint,200,OK,Thread Group 1-13,text,true,,1310,654,3,3,https://quickpizza.grafana.com/api/pizza,164,0,0
+1773956188179,132,HTTP Request for login,200,OK,Thread Group 1-15,text,true,,744,567,3,3,https://quickpizza.grafana.com/api/users/token/login?set_cookie=true%20,132,0,0
+1773956188311,151,HTTP Request for pizza endpoint,200,OK,Thread Group 1-15,text,true,,1160,654,2,2,https://quickpizza.grafana.com/api/pizza,151,0,0
+1773956188311,208,HTTP Request for pizza endpoint,200,OK,Thread Group 1-14,text,true,,1168,654,1,1,https://quickpizza.grafana.com/api/pizza,208,0,0
