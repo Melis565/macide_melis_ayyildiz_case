@@ -1,0 +1,88 @@
+name: Run Tests for Task1-UITest
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    
+    - name: Setup Java ${{ matrix.java-version }}
+      uses: actions/setup-java@v4
+      with:
+        java-version: ${{ matrix.java-version }}
+        distribution: 'temurin'
+        cache: maven
+    
+    - name: Verify Java installation
+      run: java -version
+    
+    - name: Verify Maven installation
+      run: mvn --version
+    
+    - name: Install Chrome browser
+      uses: browser-actions/setup-chrome@latest
+    
+    - name: Verify Chrome installation
+      run: which google-chrome
+    
+    - name: Build project with Maven
+      run: cd Task1-UITest && mvn clean install -DskipTests
+    
+    - name: Run Selenium tests
+      run: cd Task1-UITest && mvn test -Dbrowser=chrome
+      env:
+        BROWSER: ${{ matrix.browser }}
+    
+    - name: Upload test reports
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: test-reports
+        path: Task1-UITest/target/surefire-reports/
+        retention-days: 30
+    
+    - name: Upload failure screenshots
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: failure-screenshots
+        path: Task1-UITest/failures_screenshots/
+        retention-days: 30
+    
+    - name: Publish test results
+      if: always()
+      uses: EnricoMi/publish-unit-test-result-action@v2
+      with:
+        files: Task1-UITest/target/surefire-reports/TEST-*.xml
+        check_name: Test Results
+    
+    - name: Comment test results on PR
+      if: always() && github.event_name == 'pull_request'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const fs = require('fs');
+          const testResultFile = 'Task1-UITest/target/surefire-reports/TEST-com.petstore.tests.PetApiTest.txt';
+          
+          if (fs.existsSync(testResultFile)) {
+            const testResults = fs.readFileSync(testResultFile, 'utf8');
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `## Test Results\n\`\`\`\n${testResults}\n\`\`\``
+            });
+          }
+    
+    - name: Notify on test success
+      if: success()
+      run: echo "✅ All tests passed successfully!"
