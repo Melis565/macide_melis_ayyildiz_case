@@ -13,7 +13,7 @@ This project contains automated test cases for the Insider careers page, specifi
 
 - **Language**: Java 25
 - **Testing Framework**: JUnit 5 (Jupiter)
-- **Web Automation**: Selenium WebDriver 4.27.0
+- **Web Automation**: Selenium WebDriver 4.41.0
 - **Build Tool**: Maven
 - **Browser Support**: Chrome, Firefox
 
@@ -45,11 +45,19 @@ This project contains automated test cases for the Insider careers page, specifi
 ```bash
 mvn test
 ```
-
 ### Run Tests with Specific Browser
 ```bash
 mvn test -Dbrowser=chrome
 mvn test -Dbrowser=firefox
+```
+### Run All Tests in Headless Mode
+```bash
+mvn test -Dheadless=true
+```
+### Run All Tests in Headless Mode with Specific Browser
+```bash
+mvn test -Dheadless=true -Dbrowser=chrome
+mvn test -Dheadless=true -Dbrowser=firefox
 ```
 
 ### Run Specific Test Class
@@ -133,7 +141,7 @@ Test reports are generated in:
 
 ## Dependencies
 
-- Selenium WebDriver, 4.27.0, Browser automation
+- Selenium WebDriver, 4.41.0, Browser automation
 - JUnit Jupiter, 5.11.4, Test framework
 
 See [pom.xml](pom.xml) for complete dependency list.

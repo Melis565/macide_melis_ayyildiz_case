@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class HomePage extends BasePage{
+public class HomePage extends BasePage {
 
     private static final String HOME_URL = "https://insiderone.com/";
 
@@ -24,11 +24,19 @@ public class HomePage extends BasePage{
         return this;
     }
 
-    public boolean isNavbarDisplayed() { return isDisplayed(navbar); }
+    public boolean isNavbarDisplayed() {
+        return isDisplayed(navbar);
+    }
 
-    public boolean isHeaderMenuDisplayed() { return isDisplayed(headerMenu); }
+    public boolean isHeaderMenuDisplayed() {
+        return isDisplayed(headerMenu);
+    }
 
-    public boolean isHeroSectionDisplayed() { return isDisplayed(heroSection); }
+    public boolean isHeroSectionDisplayed() {
+        return isDisplayed(heroSection);
+    }
 
-    public boolean isFooterDisplayed() { return isDisplayed(footer); }
+    public boolean isFooterDisplayed() {
+        return isDisplayed(footer);
+    }
 }

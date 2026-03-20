@@ -25,21 +25,6 @@ public class ScreenshotHelper implements TestWatcher {
         DriverManager.quitDriver();
     }
 
-    public void takeScreenshot(String fileName) {
-        try {
-            File srcFile = ((TakesScreenshot) DriverManager.getDriver())
-                    .getScreenshotAs(OutputType.FILE);
-            String timestamp = new java.text.SimpleDateFormat("yyyyMMdd_HHmmss")
-                    .format(new java.util.Date());
-            Path destPath = Paths.get("screenshots", fileName + "_" + timestamp + ".png");
-            Files.createDirectories(destPath.getParent());
-            Files.copy(srcFile.toPath(), destPath);
-            System.out.println("Screenshot saved: " + destPath.toAbsolutePath());
-        } catch (Exception e) {
-            System.err.println("Screenshot failed: " + e.getMessage());
-        }
-    }
-
     private void takeFailedScreenshot(ExtensionContext context) {
         WebDriver driver = DriverManager.getDriver();
         if (driver == null) {

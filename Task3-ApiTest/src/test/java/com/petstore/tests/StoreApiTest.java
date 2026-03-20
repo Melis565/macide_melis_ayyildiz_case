@@ -71,7 +71,8 @@ public class StoreApiTest {
 
         assertEquals(200, response.statusCode(), "Status code should be 200");
 
-        Map<String, Integer> inventory = objectMapper.readValue(response.body(), new TypeReference<Map<String, Integer>>() {});
+        Map<String, Integer> inventory = objectMapper.readValue(response.body(), new TypeReference<Map<String, Integer>>() {
+        });
         assertNotNull(inventory);
 
     }
@@ -135,7 +136,7 @@ public class StoreApiTest {
     void getOrderByIdWithInvalidIdFormatShouldReturn404() throws Exception {
         HttpResponse<String> response = apiClient.get("/store/order/invalidString");
 
-        assertEquals(404,response.statusCode(),"Invalid ID format should return error with status code 404");
+        assertEquals(404, response.statusCode(), "Invalid ID format should return error with status code 404");
     }
 
     @Test
@@ -144,7 +145,7 @@ public class StoreApiTest {
     void getOrderByIdWithNegativeIdShouldReturn404() throws Exception {
         HttpResponse<String> response = apiClient.get("/store/order/-1");
 
-        assertEquals(404,response.statusCode(),"Negative ID should return error with status code 404");
+        assertEquals(404, response.statusCode(), "Negative ID should return error with status code 404");
     }
 
     @Test

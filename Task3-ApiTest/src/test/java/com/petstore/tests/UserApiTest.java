@@ -195,7 +195,7 @@ public class UserApiTest {
     void createUserWithEmptyBodyShouldReturn405() throws Exception {
         HttpResponse<String> response = apiClient.post("/user", "");
 
-        assertEquals( 405,response.statusCode(),
+        assertEquals(405, response.statusCode(),
                 "Empty body should return error with status code 405");
 
     }
@@ -215,14 +215,14 @@ public class UserApiTest {
     void getUserByUsernameWithEmptyUsernameShouldReturn405() throws Exception {
         HttpResponse<String> response = apiClient.get("/user/");
 
-        assertEquals(405,response.statusCode(),"Empty username should return error with status code 405");
+        assertEquals(405, response.statusCode(), "Empty username should return error with status code 405");
 
     }
 
     @Test
     @Order(13)
     @DisplayName("PUT /user/{username} - Update non-existent user should handle gracefully")
-    //This endpoint shouldn't return status code 200 but api returns 200. This is how api works.
+        //This endpoint shouldn't return status code 200 but api returns 200. This is how api works.
     void updateUserWithNonExistentUserShouldHandleGracefully() throws Exception {
         User user = new User(999L, "nonexistent_user_xyz", "Ghost", "User",
                 "ghost@example.com", "ghostPass", "0000000000", 1);
@@ -230,7 +230,7 @@ public class UserApiTest {
         String requestBody = objectMapper.writeValueAsString(user);
         HttpResponse<String> response = apiClient.put("/user/nonexistent_user_xyz", requestBody);
 
-        assertEquals(200,response.statusCode() ,"Non-existent user update should return error with status code 200");
+        assertEquals(200, response.statusCode(), "Non-existent user update should return error with status code 200");
 
     }
 
@@ -240,7 +240,7 @@ public class UserApiTest {
     void updateUserWithInvalidBodyShouldReturn400() throws Exception {
         HttpResponse<String> response = apiClient.put("/user/" + USERNAME, "{invalid json}");
 
-        assertEquals(400,response.statusCode() ,"Invalid JSON body should return error with status code 400");
+        assertEquals(400, response.statusCode(), "Invalid JSON body should return error with status code 400");
     }
 
     @Test
@@ -255,7 +255,7 @@ public class UserApiTest {
     @Test
     @Order(16)
     @DisplayName("GET /user/login - Login with invalid credentials should return response")
-    //This endpoint shouldn't return status code 200 but api returns 200. This is how api works.
+        //This endpoint shouldn't return status code 200 but api returns 200. This is how api works.
     void loginUserWithInvalidCredentialsShouldReturnResponse() throws Exception {
         HttpResponse<String> response = apiClient.get("/user/login?username=invalid_user&password=wrongpass");
 
@@ -266,7 +266,7 @@ public class UserApiTest {
     @Test
     @Order(17)
     @DisplayName("GET /user/login - Login with missing parameters should return response")
-    //This endpoint shouldn't return status code 200 but api returns 200. This is how api works.
+        //This endpoint shouldn't return status code 200 but api returns 200. This is how api works.
     void loginUserWithMissingParamsShouldReturnResponse() throws Exception {
         HttpResponse<String> response = apiClient.get("/user/login");
 
@@ -277,7 +277,7 @@ public class UserApiTest {
     @Test
     @Order(18)
     @DisplayName("POST /user/createWithArray - Create users with empty array should handle")
-    //This endpoint shouldn't return status code 200 but api returns 200. This is how api works.
+        //This endpoint shouldn't return status code 200 but api returns 200. This is how api works.
     void createUsersWithArrayEmptyArrayShouldHandle() throws Exception {
         HttpResponse<String> response = apiClient.post("/user/createWithArray", "[]");
 

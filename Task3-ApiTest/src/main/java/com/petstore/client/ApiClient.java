@@ -78,6 +78,7 @@ public class ApiClient {
 
         return httpClient.send(request, HttpResponse.BodyHandlers.ofString());
     }
+
     public HttpResponse<String> postMultipartFile(String path, String filePath) throws Exception {
         String boundary = "----FormBoundary" + System.currentTimeMillis();
         Path file = Path.of(filePath);
