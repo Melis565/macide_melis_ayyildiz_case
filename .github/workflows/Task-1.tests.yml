@@ -38,7 +38,7 @@ jobs:
       run: cd Task1-UITest && mvn clean install -DskipTests
     
     - name: Run Selenium tests
-      run: cd Task1-UITest && mvn test -Dbrowser=chrome
+      run: cd Task1-UITest && mvn test -Dbrowser=chrome -Dheadless=true
       env:
         BROWSER: ${{ matrix.browser }}
     
